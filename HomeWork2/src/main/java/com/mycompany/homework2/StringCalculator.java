@@ -22,6 +22,9 @@ public class StringCalculator {
             sum = Integer.valueOf(array[0]) + Integer.valueOf(array[1]);
             return sum;
         }
-        return Integer.valueOf(numbers);
+        for (String string : array) {
+            sum += Integer.valueOf(string);
+        }
+        return sum;
     }
 }
