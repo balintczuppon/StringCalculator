@@ -15,6 +15,13 @@ public class StringCalculator {
         if (numbers.isEmpty()) {
             return 0;
         }
+        int sum = 0;
+
+        String[] array = numbers.split(",");
+        if (array.length == 2) {
+            sum = Integer.valueOf(array[0]) + Integer.valueOf(array[1]);
+            return sum;
+        }
         return Integer.valueOf(numbers);
     }
 }

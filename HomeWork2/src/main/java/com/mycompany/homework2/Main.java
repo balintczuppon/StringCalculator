@@ -17,6 +17,7 @@ public class Main {
         
         System.out.println(calculator.add(""));
         System.out.println(calculator.add("2"));
+        System.out.println(calculator.add("2,3"));
     }
     
 }
