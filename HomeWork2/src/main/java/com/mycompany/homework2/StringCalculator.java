@@ -16,7 +16,9 @@ public class StringCalculator {
             return 0;
         }
         int sum = 0;
-
+        
+        numbers = numbers.replaceAll("[^0-9]", ",");
+        
         String[] array = numbers.split(",");
         if (array.length == 2) {
             sum = Integer.valueOf(array[0]) + Integer.valueOf(array[1]);

@@ -19,6 +19,7 @@ public class Main {
         System.out.println(calculator.add("2"));
         System.out.println(calculator.add("2,3"));
         System.out.println(calculator.add("2,3,10,4,30"));
+        System.out.println(calculator.add("1;2"));
+        System.out.println(calculator.add("2,3;10\n4|30"));
     }
-    
 }
