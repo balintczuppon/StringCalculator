@@ -16,6 +16,7 @@ public class Main {
         StringCalculator calculator = new StringCalculator();
         
         System.out.println(calculator.add(""));
+        System.out.println(calculator.add("2"));
     }
     
 }

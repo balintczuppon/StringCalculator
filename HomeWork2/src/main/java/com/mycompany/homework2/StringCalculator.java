@@ -10,8 +10,11 @@ package com.mycompany.homework2;
  * @author Admin
  */
 public class StringCalculator {
-    
-    int add(String numbers){
-        return 0;
+
+    int add(String numbers) {
+        if (numbers.isEmpty()) {
+            return 0;
+        }
+        return Integer.valueOf(numbers);
     }
 }
