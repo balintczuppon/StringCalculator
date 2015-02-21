@@ -13,6 +13,9 @@ public class Main {
     
     public static void main(String[] agrs){
         
+        StringCalculator calculator = new StringCalculator();
+        
+        System.out.println(calculator.add(""));
     }
     
 }

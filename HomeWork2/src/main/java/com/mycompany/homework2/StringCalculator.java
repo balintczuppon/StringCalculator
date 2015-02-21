@@ -11,4 +11,7 @@ package com.mycompany.homework2;
  */
 public class StringCalculator {
     
+    int add(String numbers){
+        return 0;
+    }
 }
